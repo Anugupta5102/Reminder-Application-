@@ -31,7 +31,7 @@ class ReminderApp(App):
 
     def reminder(self, dt):
         notification.notify(title="**Take a break!!!",
-                             message= "For the love of your work,take a break! Everything Will Work If You Unplug It For A Few Minutes."!",
+                             message= "For the love of your work,take a break! Everything Will Work If You Unplug It For A Few Minutes.",
                             timeout=5)
 
     def schedule_reminder(self):
